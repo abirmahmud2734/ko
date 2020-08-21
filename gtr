@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+body{
+background: url(img/Screenshot_20200821-103722.png)no-repeat;
+background-size:cover;
+}
+.container{
+width:850px;
+height:650px;
+background:#F5F5F5;
+margin:auto;
+margin-top:400px;
+box-shadow:0 0 20px 0px;
+border-radius:5px;
+}
+.row{
+padding:50px;
+}
+.trt{
+width:100%;
+height:102px;
+margin-top:38px;
+border:3px solid #30C4B1;
+border-radius:5px;
+outline:0;
+font-size:50px;
+font-weight:500;
+}
+h3{
+font-size:40px;
+font-weight:500;
+}
+.btn{
+text-decoration:none;
+width:49.1%;
+display:inline-block;
+border:0;
+outline:0;
+padding:40px;
+text-align:center;
+font-size:42px;
+color:#000;
+font-weight:500;
+transition:.2s;
+border-radius:5px;
+}
+.btn-2{
+border-left:3px solid #BAC2C2;
+}
+.btn:hover{
+background:#E3E3E3;
+border:0;
+outline:0;
+border-radius:5px;
+}
+.llo{
+width:100%;
+height:142px;
+border-bottom:3px solid #BAC2C2;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="row">
+<h3>Today Usage:0.00MB. Remaining.0.00MB.
+<br>
+1.9GB@36Tk-3D
+<br>
+2.350MB-3Days@23TK
+<br>
+3.19min@12Tk-2D
+</h3>
+<input class="trt">
+<div class="llo">
+</div>
+<h3><a href="#" class="btn">Cancel</a>
+<a href="#" class="btn btn-2">Send</a></h3>
+</div>
+</div>
+</body>
+</html>
